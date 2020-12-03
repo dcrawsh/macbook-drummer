@@ -16,3 +16,38 @@ body{
     border-radius: 10px;
     position: absolute;
 }
+
+.kick {
+    top: 500px;
+    left: 375px;
+}
+
+.crash{
+    left: 550px;
+}
+
+.high-hat{
+    top: 130px;
+    left: 60px;
+}
+
+.high{
+    left: 230px;
+    top: 140px;
+}
+.middle{
+    left: 430px;
+    top: 140px;
+}
+.middle{
+    left: 430px;
+    top: 140px;
+}
+.low{
+    left: 500px;
+    top: 250px;
+}
+.snare{
+    left: 160px;
+    top: 250px;
+}
