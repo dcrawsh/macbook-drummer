@@ -9,11 +9,13 @@ const kickSound = document.getElementById('kickSound');
 
 document.addEventListener('keypress', (e) => {
    if(e.key === 'k'){
-    var audio = new Audio("sounds/Bass-Drum-1.wav");
+    var audio = new Audio("sounds/kicks/Bass-Drum-1.wav");
     audio.play();
    }
    if(e.key === 's'){
-       console.log('s');
+    var audio = new Audio("sounds/snares/Kawai-K11-Bob-Snare.wav");
+    audio.play();
+       
    }
    if(e.key === 'h'){
        console.log('h');
