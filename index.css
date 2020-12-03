@@ -8,3 +8,9 @@ body{
     background-repeat: no-repeat;
    
 }
+
+.drum-image__button{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
