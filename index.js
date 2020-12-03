@@ -5,10 +5,12 @@ const low = document.querySelector('.low');
 const middle = document.querySelector('.middle');
 const crash = document.querySelector('.crash');
 const high = document.querySelector('.high');
+const kickSound = document.getElementById('kickSound');
 
 document.addEventListener('keypress', (e) => {
    if(e.key === 'k'){
-       console.log('k');
+    var audio = new Audio("sounds/Bass-Drum-1.wav");
+    audio.play();
    }
    if(e.key === 's'){
        console.log('s');
