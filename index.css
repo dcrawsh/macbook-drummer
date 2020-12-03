@@ -3,8 +3,8 @@ body{
 }
 
 .drum-image{
-    background-image: url('./images/drum\ kit.png');
+    background-image: url('./images/cartoon-drums.jpg');
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+   
 }
