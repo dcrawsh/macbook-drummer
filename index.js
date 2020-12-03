@@ -18,19 +18,24 @@ document.addEventListener('keypress', (e) => {
        
    }
    if(e.key === 'h'){
-       console.log('h');
+    var audio = new Audio("sounds/highs/Hi-Tom-1.wav");
+    audio.play();
    }
    if(e.key === 'c'){
-       console.log('c');
+    var audio = new Audio("sounds/crashes/Crash-Cymbal-1.wav");
+    audio.play();
    }
    if(e.key === 'e'){
-       console.log('e');
+    var audio = new Audio("sounds/high-hat/Closed-Hi-Hat-1.wav");
+    audio.play();
    }
    if(e.key === 'm'){
-       console.log('m');
+    var audio = new Audio("sounds/middles/Korg-N1R-Mid-Tom-2.wav");
+    audio.play();
    }
    if(e.key === 'l'){
-       console.log('l');
+    var audio = new Audio("sounds/lows/Low-Tom-1.wav");
+    audio.play();
    }
 })
 
