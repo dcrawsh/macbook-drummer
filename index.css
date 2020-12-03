@@ -6,6 +6,7 @@ body{
     background-image: url('./images/cartoon-drums.jpg');
     height: 100%;
     background-repeat: no-repeat;
+    position: relative;
    
 }
 
@@ -13,4 +14,5 @@ body{
     height: 30px;
     width: 30px;
     border-radius: 10px;
+    position: absolute;
 }
