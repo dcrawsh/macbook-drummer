@@ -6,12 +6,13 @@ const middle = document.querySelector('.middle');
 const crash = document.querySelector('.crash');
 const high = document.querySelector('.high');
 const kickSound = document.getElementById('kickSound');
+const drumImage = document.querySelector('.drum-image')
 
-document.addEventListener('keypress', (e) => {
+document.addEventListener('keydown', (e) => {
    if(e.key === 'k'){
     var audio = new Audio("sounds/kicks/Bass-Drum-1.wav");
     audio.play();
-    kick.style.color = 'blue';
+    drumImage.style.backgroundImage = 'url(images/cartoon-drums-blackeye.jpg)';
    }
    if(e.key === 's'){
     var audio = new Audio("sounds/snares/Kawai-K11-Bob-Snare.wav");
@@ -36,6 +37,13 @@ document.addEventListener('keypress', (e) => {
    if(e.key === 'l'){
     var audio = new Audio("sounds/lows/Low-Tom-1.wav");
     audio.play();
+   }
+})
+
+document.addEventListener('keyup', (e) => {
+   if(e.key === 'k'){
+      console.log('keyup')
+      drumImage.style.backgroundImage= 'url(images/cartoon-drums.jpg)';
    }
 })
 
